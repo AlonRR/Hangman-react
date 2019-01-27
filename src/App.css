@@ -1,0 +1,27 @@
+body {
+  position: relative;
+  display: grid;
+  display: flex;
+  grid: inherit;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+#root {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-size: 10vh;
+  display: grid;
+  grid: inherit center;
+}
+.letters {
+  height: 300px;
+  width: 600px;
+  font-size: 60%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.selected {
+  color: gray;
+  text-decoration: line-through;
+}
